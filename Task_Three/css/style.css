@@ -236,7 +236,15 @@ img {
   grid-area: img3;
 }
 
- 
+.pics .pic-1 img,
+.pics .pic-1 img {
+  width: 620px;
+    /* height: 50%; */
+}
+.pics .pic-3 img {
+  width: 620px;
+  height: 100%;
+}
 
 @media (max-width: 900px) { 
   .data {
