@@ -1,5 +1,3 @@
-# coffee-website
- Coffe display website
 # ☕ Coffee Bliss - Website Project 🌟
 
 ## Description
@@ -19,6 +17,22 @@ Welcome to Coffee Bliss, where the love for coffee meets the joy of exploration!
 
 - **Coffee Events Calendar 🗓️:**
   - Stay informed about upcoming coffee-related events, festivals, and workshops.
+
+## Demo
+
+Check out the live demo of the project here:
+
+[Live Demo](https://papaya-dragon-d2bd10.netlify.app/)
+
+## Installation
+
+To run the project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/coffee-bliss.git
+
 
 ## Installation
 
