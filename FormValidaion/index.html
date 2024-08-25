@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation </title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <small>Username must be 5-12 characters long and contain only letters and numbers.</small>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <small>Enter a valid email address (e.g., user@example.com).</small>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <small>Password must be at least 8 characters long and contain at least one number, one uppercase and one lowercase letter.</small>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <script src="./assets/app.js"></script>
+</body>
+</html>
+
+
+<!-- 
+/^[a-zA-Z0-9]{5,12}$/
+
+^ .. start string
+[a-zA-Z0-9] ... single character that is either a lowercase - uppper case -- digital
+
+{5,12}.. must appear at least 5 times and at most 12 times.
+
+$-- end of string
+---------------------------------------------------------------------------------------------
+
+emailPattern
+
+^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
+[a-zA-Z0-9._%+- ]+  ... one or more characters that are either a letter, a digit, a dot, an underscore, a percent sign, a plus sign or a minus sign
+
+@ symbol 
+[a-zA-Z0-9.-] -- domain
+
+------------------------------------
+(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$
+
+This is a positive lookahead, which ensures that there is at least one digit (\d).
+{8,} at least 8
+
+-->

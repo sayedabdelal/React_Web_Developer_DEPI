@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Your Favorite Sites</title>
+    <link rel="stylesheet" href="./assests/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bookmark Your Favorite Sites</h1>
+        <form id="bookmarkForm">
+            <label for="siteName">Site Name</label>
+            <input type="text" id="siteName" placeholder="Bookmark Name" required>
+            
+            <label for="siteUrl">Site URL</label>
+            <input type="url" id="siteUrl" placeholder="Website URL"required>
+            <button  class="btn-submit" type="submit">Add Bookmark</button>
+        </form>
+        <div id="bookmarksList"></div>
+    </div>
+    <script src="./assests/app.js"></script>
+</body>
+</html>

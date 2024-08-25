@@ -1,0 +1,26 @@
+Exercise 1: Basic Addition
+Prompt: Ask the user to enter two numbers and then output their sum.
+
+Exercise 2: Subtract Two Numbers
+Prompt: Ask the user to enter two numbers and then output their difference.
+
+Exercise 3: Multiplication
+Prompt: Ask the user to enter two numbers and then output their product.
+
+Exercise 4: Division
+Prompt: Ask the user to enter two numbers and then output their quotient.
+
+Exercise 5: Modulus Operation
+Prompt: Ask the user to enter two numbers and then output the remainder of their division.
+
+Exercise 6: Convert Hours to Minutes
+Prompt: Ask the user to enter a number of hours and then output the equivalent number of minutes.
+
+Exercise 7: Area of a Triangle
+Prompt: Ask the user to enter the base and height of a triangle and then output its area.
+
+Exercise 8: Convert Fahrenheit to Celsius
+Prompt: Ask the user to enter a temperature in Fahrenheit and then output the equivalent temperature in Celsius.
+
+Exercise 9: Calculate Age in Days
+Prompt: Ask the user to enter their age in years and then output the equivalent number of days (assuming a year has 365 days).
