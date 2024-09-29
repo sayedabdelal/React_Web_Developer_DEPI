@@ -1,0 +1,137 @@
+/* Reset some basic styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.app-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333333;
+}
+
+.create-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.create-item input,
+.create-item textarea {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.create-item textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+#createLaptopBtn {
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#createLaptopBtn:hover {
+    background-color: #218838;
+}
+
+.laptop-list {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.laptop-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.laptop-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.laptop-details {
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.laptop-details h3 {
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.laptop-details p {
+    margin-bottom: 10px;
+    color: #555555;
+}
+
+.laptop-details .price {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 15px 15px;
+}
+
+.card-actions button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+}
+
+.edit-btn {
+    background-color: #007bff;
+}
+
+.edit-btn:hover {
+    background-color: #0069d9;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}

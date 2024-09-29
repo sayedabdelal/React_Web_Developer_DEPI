@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Recipes</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+       
+        <div class="sideNav" id="sidebar">
+            <button class="toggleBtn" onclick="myToggle()">☰ </button>
+            <ul class="sideMenu">
+                <li><button onclick="updateData('pizza')">Pizza</button></li>
+                <li><button onclick="updateData('apple')">Apple</button></li>
+                <li><button onclick="updateData('banana')">Banana</button></li>
+                <li><button onclick="updateData('avocado')">Avocado</button></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="mainContent">
+            <!-- Card Container -->
+            <div class="hereToAdd"></div>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laptop CRUD App</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>Laptop Inventory</h1>
+    
+   
+    <div class="create-item">
+      <input type="text" id="newLaptopName" placeholder="Laptop Name">
+      <input type="number" id="newLaptopPrice" placeholder="Price ($)">
+      <textarea id="newLaptopDescription" placeholder="Description"></textarea>
+      <input type="url" id="newLaptopImage" placeholder="Image URL">
+      <button id="addLaptopBtn">Add Laptop</button>
+    </div>
+   
+    <div id="laptopList" class="laptop-list">
+      
+    </div>
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sideNav {
+    height: 100vh;
+    width: 250px;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    transition: 0.3s ease;
+    overflow-x: hidden;
+}
+
+.sideNav .toggleBtn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    text-align: left;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.sideNav .toggleBtn:hover {
+    background-color: #575757;
+}
+
+.sideMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sideMenu li {
+    padding: 10px 0;
+    margin: 0;
+    text-align: left;
+}
+
+.sideMenu li button {
+    padding: 10px;
+    background-color: #444;
+    border: none;
+    color: white;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sideMenu li button:hover {
+    background-color: #575757;
+}
+
+.mainContent {
+    margin-left: 250px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.hereToAdd {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
